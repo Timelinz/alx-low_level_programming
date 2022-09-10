@@ -9,7 +9,6 @@
  */
 
 int main(void)
-
 {
 	char low;
 	for (low ='a'; low<='z'; low++)
