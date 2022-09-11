@@ -8,9 +8,9 @@
 *Return: Always 0 (success)
 */
 
-char main(void)
+int main(void)
 {
-	int low;
+	char low;
 
 	for (low = 'a'; low <= 'z'; low--)
 		putchar(low);
