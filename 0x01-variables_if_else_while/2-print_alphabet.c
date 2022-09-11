@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** 
+/**
  * main - Entry point
  *
  * Retue: Array 0 (success)
