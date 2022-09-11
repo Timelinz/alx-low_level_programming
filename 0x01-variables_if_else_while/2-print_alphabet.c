@@ -5,13 +5,14 @@
 /**
  * main - Entry point
  *
- * Retue: Array 0 (success)
+ * Return: Array 0 (success)
  */
 
 int main(void)
 {
 	char low;
-	for (low ='a'; low <= 'z'; low++)
+
+	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
 		putchar('\n');
 		return (0);
