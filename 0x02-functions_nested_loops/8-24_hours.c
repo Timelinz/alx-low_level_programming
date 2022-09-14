@@ -1,21 +1,26 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
+ * jack_bauer - print all times of day from 00:00 to 23:59
  *
- * Description: Print all the digits of base 16 in lowercase
- * Return: 0
+ * Return: void
  */
-int main(void)
+void jack_bauer(void)
 {
-	char x;
+	int m;
+	int h;
 
-	for (x = '0'; x <= '9'; ++x)
-		putchar(x);
-	for (x = 'a'; x <= 'f'; ++x)
-		putchar(x);
+	for (h = 0; h < 24; ++h)
+	{
+		for (m = 0; m < 60; ++m)
+		{
+			_putchar('0' + h / 10);
+			_putchar('0' + h % 10);
+			_putchar(':');
+			_putchar('0' + m / 10);
+			_putchar('0' + m % 10);
+			_putchar('\n');
+		}
+	}
 
-	putchar('\n');
-
-	return (0);
 }
