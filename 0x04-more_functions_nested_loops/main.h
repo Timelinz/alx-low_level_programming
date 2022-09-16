@@ -1,12 +1,12 @@
-fndef MAIN_H 
- #define MAIN_H 
-  
- #include <unistd.h> 
-  
- int _putchar(char c); 
-   
-  /* TASK 0 */ 
-  int _isupper(int c);
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <unistd.h>
+
+int _putchar(char c); 
+
+/* TASK 0 */
+int _isupper(int c);
 
 /* TASK 1 */
 int _isdigit(int c);
