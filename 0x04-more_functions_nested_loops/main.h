@@ -6,16 +6,16 @@ fndef MAIN_H
  int _putchar(char c); 
    
   /* TASK 0 */ 
-  int _isupper(int c); 
-    
-   /* TASK 1 */ 
-   int _isdigit(int c); 
-     
-    /* TASK 2 */ 
-    int mul(int a, int b); 
-      
-     /* TASK 3 */ 
-     void print_numbers(void); 
+  int _isupper(int c);
+
+/* TASK 1 */
+int _isdigit(int c);
+
+/* TASK 2 */ 
+int mul(int a, int b); 
+
+/* TASK 3 */
+void print_numbers(void);
        
       /* TASK 4 */ 
       void print_most_numbers(void); 
