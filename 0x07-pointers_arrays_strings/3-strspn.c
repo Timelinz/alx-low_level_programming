@@ -1,28 +1,3 @@
-
-Skip to content
-Pulls
-Issues
-Marketplace
-Explore
-@Timelinz
-piroadams /
-alx-low_level_programming
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-
-More
-alx-low_level_programming/0x07-pointers_arrays_strings/3-strspn.c
-Ndem Peter Adamson Task 0 - 9
-Latest commit ec268ef yesterday
-History
-0 contributors
-executable file 31 lines (28 sloc) 645 Bytes
 #include "main.h"
 
 /**
